@@ -9,7 +9,7 @@ int main()
 	component *pComponent = new ConCreateComponent();
 
 	ConCreteDecorator *pConCDeco = new ConCreteDecorator();
-	pConCDeco->SetComponenta(pComponent);
+	pConCDeco->SetComponent(pComponent);
 	pComponent->Opreation();
 	pConCDeco->addBehavior();
 
