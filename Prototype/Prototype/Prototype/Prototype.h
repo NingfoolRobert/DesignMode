@@ -34,9 +34,9 @@ public:
 		return m_nCounter;
 	}
 	//
-	virtual CPrototype *Clone()
+	virtual CConcretePrototype* Clone()
 	{
-		return new CConcretePrototype(*this);
+		return new CConcretePrototype( *this );
 	}
 private:
 	int m_nCounter;
